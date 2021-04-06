@@ -150,7 +150,7 @@ class Authorization():
         }
         create_playlist_data = {
             'name': 'SuggestFy Playlist',
-            'description': 'Playlist generated according to your tastes for suggestfy.com',
+            'description': 'Playlist generated according to your tastes!',
             'public': 'false'
         }
         create_playlist_request = requests.post(create_playlist_url, json=create_playlist_data ,headers=authorization_header)
